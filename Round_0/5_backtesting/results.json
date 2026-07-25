@@ -1,0 +1,43 @@
+{
+  "per_scope": [
+    {
+      "scope_name": "EMERALDS",
+      "family": "meta(M=1)",
+      "sharpe": 289.2071,
+      "max_drawdown": 200.0,
+      "fill_rate": 0.97025,
+      "total_pnl": 570904.2453,
+      "pnl_by_day": {
+        "-1": 570904.2453434685
+      },
+      "limit_violations": 0,
+      "n_trades": 3881
+    },
+    {
+      "scope_name": "TOMATOES",
+      "family": "meta(M=1)",
+      "sharpe": 151.3954,
+      "max_drawdown": 180.0,
+      "fill_rate": 0.94775,
+      "total_pnl": 399647.8182,
+      "pnl_by_day": {
+        "-1": 399647.81822459155
+      },
+      "limit_violations": 0,
+      "n_trades": 3791
+    }
+  ],
+  "portfolio": {
+    "sharpe": 254.641,
+    "max_drawdown": 200.0,
+    "total_pnl_by_day": {
+      "-1": 970552.06356806
+    },
+    "per_scope_pnl": {
+      "EMERALDS": 570904.2453,
+      "TOMATOES": 399647.8182
+    },
+    "limit_violations": 0,
+    "n_trades": 7672
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "round_number": 1,
+  "data_split": {
+    "fitter_days":   [-2, -1],
+    "backtest_days": [0]
+  },
+  "products": {
+    "ASH_COATED_OSMIUM": {
+      "position_limit": 80,
+      "strategy":       "fixed_fv",
+      "bounds": {
+        "fair_value":     [10000],
+        "take_edge":      [1],
+        "skew_threshold": [0.75],
+        "skew_ticks":     [1, 2, 3]
+      }
+    },
+    "INTARIAN_PEPPER_ROOT": {
+      "position_limit": 80,
+      "strategy":       "drift",
+      "bounds": {
+        "window_n":  [10, 20, 50],
+        "t_entry":   [0.5, 1.0, 1.5, 2.0],
+        "t_full":    [1.5, 2.0, 3.0],
+        "stop_mult": [10],
+        "signal_m":  [1, -1]
+      }
+    }
+  }
+}

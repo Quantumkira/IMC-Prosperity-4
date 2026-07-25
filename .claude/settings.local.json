@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv R3_claude/trader.py R3_claude/round_briefing.md .)",
+      "Bash(rmdir R3_claude)",
+      "Bash(/bin/ls)",
+      "Bash(/bin/ls *)"
+    ]
+  }
+}

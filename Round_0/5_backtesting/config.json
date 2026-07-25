@@ -1,0 +1,46 @@
+{
+  "EMERALDS": {
+    "family": "meta(M=1)",
+    "universe": {
+      "products": [
+        "EMERALDS"
+      ],
+      "weights": [
+        1.0
+      ],
+      "obs_keys": [],
+      "exo_betas": []
+    },
+    "params": {
+      "lookback_n": 10,
+      "z_buy": 7.5,
+      "z_sell": 3.5,
+      "inv_skew": 1.5739,
+      "gamma": 0.0,
+      "signal_m": 1,
+      "max_inventory": 80
+    }
+  },
+  "TOMATOES": {
+    "family": "meta(M=1)",
+    "universe": {
+      "products": [
+        "TOMATOES"
+      ],
+      "weights": [
+        1.0
+      ],
+      "obs_keys": [],
+      "exo_betas": []
+    },
+    "params": {
+      "lookback_n": 5,
+      "z_buy": 6.0,
+      "z_sell": 3.0,
+      "inv_skew": 1.3055,
+      "gamma": 0.0,
+      "signal_m": 1,
+      "max_inventory": 80
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Staging area for pending deletions — see REPORT.md
+.trash/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Backtests / runtime artifacts
+local_backtests/
+Logs/
+runs/
+7_post_analysis/
+benchmark_results/
+
+# macOS
+.DS_Store
+
+# Large data (regenerate from generate_all_days_data.py)
+Round_3/**/*.csv
+all_days_data.csv
+voucher_df_*.csv

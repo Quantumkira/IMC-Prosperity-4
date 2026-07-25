@@ -1,0 +1,36 @@
+[
+  {
+    "scope_name": "EMERALDS",
+    "lookback_n": 10,
+    "z_buy": 7.87,
+    "z_sell": 3.935,
+    "inv_skew": 4.7201,
+    "gamma": 0.0,
+    "signal_m": 1,
+    "proxy_score": 152142.84,
+    "max_inventory": 80,
+    "z_scale": 0.0,
+    "e_enter_start": 0.0,
+    "e_enter_full": 0.0,
+    "e_exit_start": 0.0,
+    "e_close": 0.0,
+    "fixed_mean": null
+  },
+  {
+    "scope_name": "TOMATOES",
+    "lookback_n": 5,
+    "z_buy": 6.53,
+    "z_sell": 3.265,
+    "inv_skew": 3.9196,
+    "gamma": 0.0,
+    "signal_m": 1,
+    "proxy_score": 78026.4037,
+    "max_inventory": 80,
+    "z_scale": 0.0,
+    "e_enter_start": 0.0,
+    "e_enter_full": 0.0,
+    "e_exit_start": 0.0,
+    "e_close": 0.0,
+    "fixed_mean": null
+  }
+]

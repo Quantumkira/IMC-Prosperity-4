@@ -1,0 +1,36 @@
+[
+  {
+    "scope_name": "ASH_COATED_OSMIUM",
+    "lookback_n": 1,
+    "z_buy": 1.0,
+    "z_sell": 0.0,
+    "inv_skew": 0.75,
+    "gamma": 2.0,
+    "signal_m": 1,
+    "proxy_score": 233235.0,
+    "max_inventory": 80,
+    "z_scale": 0.0,
+    "e_enter_start": 0.0,
+    "e_enter_full": 0.0,
+    "e_exit_start": 0.0,
+    "e_close": 0.0,
+    "fixed_mean": 10000.0
+  },
+  {
+    "scope_name": "INTARIAN_PEPPER_ROOT",
+    "lookback_n": 50,
+    "z_buy": 1.0,
+    "z_sell": 2.0,
+    "inv_skew": 10.0,
+    "gamma": 0.0,
+    "signal_m": 1,
+    "proxy_score": 84724.0,
+    "max_inventory": 80,
+    "z_scale": 0.0,
+    "e_enter_start": 0.0,
+    "e_enter_full": 0.0,
+    "e_exit_start": 0.0,
+    "e_close": 0.0,
+    "fixed_mean": null
+  }
+]

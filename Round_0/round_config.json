@@ -1,0 +1,33 @@
+{
+  "round_number": 0,
+  "data_split": {
+    "fitter_days":   [-2],
+    "backtest_days": [-1]
+  },
+  "products": {
+    "EMERALDS": {
+      "position_limit": 80,
+      "strategy":       "meta",
+      "bounds": {
+        "lookback_N":     [1, 5, 10, 20, 50, 100],
+        "z_entry_mult":   [0.5, 1.0, 1.5, 2.0, 3.0],
+        "z_exit_ratio":   [0.0, 0.25, 0.5, 0.75],
+        "inv_skew_alpha": [0.0, 0.01, 0.05, 0.1, 0.3, 0.5, 1.0, 2.0],
+        "informed_gamma": [0.0],
+        "signal_m":       [1, -1]
+      }
+    },
+    "TOMATOES": {
+      "position_limit": 80,
+      "strategy":       "meta",
+      "bounds": {
+        "lookback_N":     [1, 5, 10, 20, 50, 100],
+        "z_entry_mult":   [0.5, 1.0, 1.5, 2.0, 3.0],
+        "z_exit_ratio":   [0.0, 0.25, 0.5, 0.75],
+        "inv_skew_alpha": [0.0, 0.01, 0.05, 0.1, 0.3, 0.5, 1.0, 2.0],
+        "informed_gamma": [0.0],
+        "signal_m":       [1, -1]
+      }
+    }
+  }
+}
