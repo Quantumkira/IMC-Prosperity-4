@@ -1,6 +1,9 @@
 # Staging area for pending deletions — see REPORT.md
 .trash/
 
+# Claude Code local settings
+.claude/
+
 # Python
 __pycache__/
 *.pyc
