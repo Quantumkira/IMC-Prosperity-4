@@ -4,6 +4,9 @@
 # Claude Code local settings
 .claude/
 
+# Personal notes (not for public repo)
+CV_NOTES.md
+
 # Python
 __pycache__/
 *.pyc
