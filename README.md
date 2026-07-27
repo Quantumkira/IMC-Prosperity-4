@@ -12,15 +12,17 @@ Full write-up: **[REPORT.md](./REPORT.md)**
 
 ## Results
 
-| Round | Products | Strategy family | Outcome |
-|------:|----------|-----------------|---------|
-| 0 (tutorial) | EMERALDS, TOMATOES | Grid-fit meta-strategy (MR / momentum) | Framework validated |
-| 1 | ASH_COATED_OSMIUM, INTARIAN_PEPPER_ROOT | Fixed-FV MM + OLS drift trend | Rank ~1800 |
-| 2 | (same as R1) | Spike-capture MM + refined drift | Rank ~1000 |
-| 3 | HYDROGEL_PACK, VELVETFRUIT_EXTRACT, VEV_* (10 options) | Vol-surface MM + IV / gamma scalping + cross-strike arb | Poor — over-engineered |
-| 4 | (same as R3) | "Penny the MM" + counterparty lean + aggressive VEV taker | Recovered |
-| 5 | PEBBLES_XS..XL, 45 poly-unit assets, SNACKPACK_* | Joint basket MM + wide market-making + pair-trade & MR overlays | **Algo rank 157** |
-| — | — | — | **Final overall rank 915** |
+| Round | Products | Strategy family |
+|------:|----------|-----------------|
+| 0 (tutorial) | EMERALDS, TOMATOES | Grid-fit meta-strategy (MR / momentum) |
+| 1 | ASH_COATED_OSMIUM, INTARIAN_PEPPER_ROOT | Fixed-FV MM + OLS drift trend |
+| 2 | (same as R1) | Spike-capture MM + refined drift |
+| 3 | HYDROGEL_PACK, VELVETFRUIT_EXTRACT, VEV_* (10 options) | Vol-surface MM + IV / gamma scalping + cross-strike arb |
+| 4 | (same as R3) | "Penny the MM" + counterparty lean + aggressive VEV taker |
+| 5 | PEBBLES_XS..XL, 45 poly-unit assets, SNACKPACK_* | Joint basket MM + wide market-making + pair-trade & MR overlays |
+| — | — | — |
+
+** 915 / ~18,000 teams (top ~5%); Round 5 algorithmic rank 157 (top ~1%)**
 
 ## Strategies shipped
 
