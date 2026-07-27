@@ -7,14 +7,14 @@ the pack to a strong finish.
 
 ## Journey at a glance
 
-| Round | Products introduced | Strategy family | Result |
+| Round | Products introduced | Strategy family |
 |------:|--------------------|-----------------|--------|
-| 0 (Tutorial) | EMERALDS, TOMATOES | Grid-fit meta strategy (MR / momentum) | Framework validated on historical days |
-| 1 | ASH_COATED_OSMIUM, INTARIAN_PEPPER_ROOT | Fixed-FV MM + OLS drift trend | ~1800 rank — average, but pipeline solid |
-| 2 | (same two products) | Hand-tuned spike-capture MM + refined drift | ~1000 rank — big jump |
-| 3 | HYDROGEL_PACK, VELVETFRUIT_EXTRACT, VEV_* (10 option strikes) | Four-strategy options stack (surface MM, IV scalping, gamma, cross-strike) | Poor — no profit, over-engineered |
-| 4 | (same three products) | "Penny the MM" + counterparty lean + aggressive VEV taker | Improvement — recovered ground |
-| 5 | PEBBLES_XS..XL, 45 poly-unit assets, SNACKPACK_* | Joint basket quoting + wide market-making + pair-trade & MR overlays | Best round — strong finish |
+| 0 (Tutorial) | EMERALDS, TOMATOES | Grid-fit meta strategy (MR / momentum) | 
+| 1 | ASH_COATED_OSMIUM, INTARIAN_PEPPER_ROOT | Fixed-FV MM + OLS drift trend | 
+| 2 | (same two products) | Hand-tuned spike-capture MM + refined drift | 
+| 3 | HYDROGEL_PACK, VELVETFRUIT_EXTRACT, VEV_* (10 option strikes) | Four-strategy options stack (surface MM, IV scalping, gamma, cross-strike) | 
+| 4 | (same three products) | "Penny the MM" + counterparty lean + aggressive VEV taker |
+| 5 | PEBBLES_XS..XL, 45 poly-unit assets, SNACKPACK_* | Joint basket quoting + wide market-making + pair-trade & MR overlays |
 
 The arc is the story of the report: build a general framework early, over-fit
 in the middle, then throw the framework away for R4/R5 and let the data drive
@@ -46,7 +46,7 @@ multi-leg baskets with OLS hedge ratios. Fitted params:
 Portfolio proxy Sharpe ~255 on backtest days. Framework validated; time to
 face real competition.
 
-## Round 1 — Onboarding (rank ~1800)
+## Round 1 — Onboarding 
 
 New products: **ASH_COATED_OSMIUM** (mean anchored at 10 000) and
 **INTARIAN_PEPPER_ROOT** (IPR).
@@ -77,7 +77,7 @@ curves are worth keeping.
 **Result:** middle of the pack (~1800). Pipeline was working, but the
 one-size-fits-all `MetaStrategy` was not squeezing all the edge available.
 
-## Round 2 — Rank up (~1000)
+## Round 2 — Rank up 
 
 Round 2 kept the same two products but let us iterate. We abandoned the
 generated `trader.py` and wrote `shankar_trader.py` — a single hand-tuned
@@ -105,7 +105,7 @@ keeping for the write-up (each shows one thing we tried and rejected).
 **Result:** rank jumped to ~1000. Beating the generic MM by paying attention
 to a single microstructure artefact was the takeaway of the round.
 
-## Round 3 — Options round, harsh lesson (no profit)
+## Round 3 — Options round, harsh lesson (Rank - 2187)
 
 New products: **HYDROGEL_PACK**, **VELVETFRUIT_EXTRACT** (VFE, delta-1
 underlying), and **VEV_4000..VEV_6500** — 10 European call vouchers on VFE,
@@ -146,7 +146,7 @@ report; not needed in the repo.
 
 **Result:** no meaningful profit. The lesson bought Round 4.
 
-## Round 4 — Rebuild from data (improvement)
+## Round 4 — Rebuild from data (Rank - 1999)
 
 Same three products, zero code carried over from R3. `Round_4/PLAN.md` is
 the living plan for this round — it's the structured version of "what
@@ -175,7 +175,7 @@ verification scripts `deep_audit.py`, `recheck.py`, `final_verify.py`.
 point: R4 outperformed R3's four-strategy stack with three tightly
 data-driven rules.
 
-## Round 5 — All-in (best round)
+## Round 5 — All-in (Rank - 915)
 
 Round 5 was the biggest surface area — 55 products across three cohorts:
 
