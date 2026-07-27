@@ -22,7 +22,7 @@ Full write-up: **[REPORT.md](./REPORT.md)**
 | 5 | PEBBLES_XS..XL, 45 poly-unit assets, SNACKPACK_* | Joint basket MM + wide market-making + pair-trade & MR overlays |
 | — | — | — |
 
-** 915 / ~18,000 teams (top ~5%); Round 5 algorithmic rank 157 (top ~1%)**
+**915 / ~18,000 teams (top ~5%); Round 5 algorithmic rank 157 (top ~1%)**
 
 ## Strategies shipped
 
